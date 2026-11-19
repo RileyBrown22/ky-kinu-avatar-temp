@@ -1,0 +1,597 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3854327779421323954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228306966406212500}
+  - component: {fileID: 5255853628743045433}
+  m_Layer: 0
+  m_Name: Body Controls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1228306966406212500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3854327779421323954}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4544602194539336762}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5255853628743045433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3854327779421323954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083807
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083807
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Controls/Touch
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7a005e781f124a31c8a1a5f428907b26|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Body Controls/Touch/item_touch.png
+          objRef: {fileID: 2800000, guid: 7a005e781f124a31c8a1a5f428907b26, type: 3}
+--- !u!1 &4928872990643101964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037100499552143975}
+  - component: {fileID: 3045883138631968278}
+  - component: {fileID: 245227976692594482}
+  - component: {fileID: 2651825130950597745}
+  - component: {fileID: 2473133168556519580}
+  - component: {fileID: 3993559658249837521}
+  - component: {fileID: 216593302773966426}
+  - component: {fileID: 8132292702223428025}
+  m_Layer: 0
+  m_Name: Customization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1037100499552143975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928872990643101964}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4544602194539336762}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3045883138631968278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928872990643101964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083716
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083716
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize/Head
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 56432b1d9d26345c381fc6bd1fd0d304|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Customization/item_head.png
+          objRef: {fileID: 2800000, guid: 56432b1d9d26345c381fc6bd1fd0d304, type: 3}
+--- !u!114 &245227976692594482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928872990643101964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083717
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083717
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize/Tail
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 0e676da453ba8611abe47622ffe0d83e|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Customization/item_tail.png
+          objRef: {fileID: 2800000, guid: 0e676da453ba8611abe47622ffe0d83e, type: 3}
+--- !u!114 &2651825130950597745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928872990643101964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083718
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083718
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize/Eyes
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: c9fa8a20321bc61788af1e1127db1269|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Customization/item_eye.png
+          objRef: {fileID: 2800000, guid: c9fa8a20321bc61788af1e1127db1269, type: 3}
+--- !u!114 &2473133168556519580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928872990643101964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083719
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083719
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize/Ears
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 3a1f7c681baa9d7adbf325924aba82d4|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Customization/item_ears.png
+          objRef: {fileID: 2800000, guid: 3a1f7c681baa9d7adbf325924aba82d4, type: 3}
+--- !u!114 &3993559658249837521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928872990643101964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083720
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083720
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize/Body
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 7f1a7284bcd0a8572a651f47a7d853fb|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Customization/item_body.png
+          objRef: {fileID: 2800000, guid: 7f1a7284bcd0a8572a651f47a7d853fb, type: 3}
+--- !u!114 &216593302773966426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928872990643101964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083765
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083765
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize/Eyes/Inner Eye
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: f880c6001f7f7eed787e9b2642c334ac|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Customization/item_innereye.png
+          objRef: {fileID: 2800000, guid: f880c6001f7f7eed787e9b2642c334ac, type: 3}
+--- !u!114 &8132292702223428025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4928872990643101964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083764
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083764
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize/Eyes/Outer Eye
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 2deb9f4ceb1c8ed19b317ab066f50d34|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Customization/item_outereye.png
+          objRef: {fileID: 2800000, guid: 2deb9f4ceb1c8ed19b317ab066f50d34, type: 3}
+--- !u!1 &5201704679384676842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4544602194539336762}
+  m_Layer: 0
+  m_Name: Icons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4544602194539336762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5201704679384676842}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2413804193707222741}
+  - {fileID: 1037100499552143975}
+  - {fileID: 1228306966406212500}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6516294804397481087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2413804193707222741}
+  - component: {fileID: 4447438135058201735}
+  - component: {fileID: 5006014028766141320}
+  - component: {fileID: 808122791877086656}
+  - component: {fileID: 5348054128041520688}
+  - component: {fileID: 6829375499509367744}
+  m_Layer: 0
+  m_Name: Top Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2413804193707222741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516294804397481087}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4544602194539336762}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4447438135058201735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516294804397481087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785616444818270
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785616444818270
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Utility
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 29e4b2f3dde75b4bb871c799520160b1|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Top Level/item_utility.png
+          objRef: {fileID: 2800000, guid: 29e4b2f3dde75b4bb871c799520160b1, type: 3}
+--- !u!114 &5006014028766141320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516294804397481087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785616444818271
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785616444818271
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Clothes
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6f7cd5ebe743ece26a58ba325b4d10f8|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Top Level/item_clothes.png
+          objRef: {fileID: 2800000, guid: 6f7cd5ebe743ece26a58ba325b4d10f8, type: 3}
+--- !u!114 &808122791877086656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516294804397481087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785616444818272
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785616444818272
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Expressions
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4d0d33fd88261008b934afffde48fde7|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Top Level/item_expressions.png
+          objRef: {fileID: 2800000, guid: 4d0d33fd88261008b934afffde48fde7, type: 3}
+--- !u!114 &5348054128041520688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516294804397481087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785616444818273
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785616444818273
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Control
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 27adf15464f898cff98b8fbc8c4bed22|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Top Level/item_bodycontrols.png
+          objRef: {fileID: 2800000, guid: 27adf15464f898cff98b8fbc8c4bed22, type: 3}
+--- !u!114 &6829375499509367744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516294804397481087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1334.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785616444818274
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785616444818274
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Customize
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 40ee4181301380f6ea9994b73998112e|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Top Level/item_customize.png
+          objRef: {fileID: 2800000, guid: 40ee4181301380f6ea9994b73998112e, type: 3}

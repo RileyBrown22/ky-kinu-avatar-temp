@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Leash Pull Menu
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 354fda59072f85f25815c3e73076dc26, type: 2}
+  controls:
+  - name: React on Leash Pull
+    icon: {fileID: 2800000, guid: a755b64b85ecf58c19655c0a6c51827d, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Leash/Pull
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

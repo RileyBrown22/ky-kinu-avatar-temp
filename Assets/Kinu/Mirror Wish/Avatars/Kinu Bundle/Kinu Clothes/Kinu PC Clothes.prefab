@@ -1,0 +1,4314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &358053747508076138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3461131371977807500}
+  - component: {fileID: 6913586080620063859}
+  - component: {fileID: 7552434287891861403}
+  - component: {fileID: 3965674763171186825}
+  m_Layer: 0
+  m_Name: Physbones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3461131371977807500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358053747508076138}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1267508469705495047}
+  - {fileID: 1446871359607660115}
+  m_Father: {fileID: 1517451273260010048}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6913586080620063859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358053747508076138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 1
+  integrationType: 1
+  rootTransform: {fileID: 5414823049451883227}
+  ignoreTransforms:
+  - {fileID: 8043436639080566135}
+  ignoreOtherPhysBones: 1
+  endpointPosition: {x: 0, y: 0.03, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 1
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  radius: 0.01
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 0
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 2
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!114 &7552434287891861403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358053747508076138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 1
+  integrationType: 1
+  rootTransform: {fileID: 1849965385403108310}
+  ignoreTransforms: []
+  ignoreOtherPhysBones: 1
+  endpointPosition: {x: 0, y: 0.09, z: 0}
+  multiChildType: 0
+  pull: 0.3
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.3
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  radius: 0.04
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.6428375
+      inSlope: 0.35716248
+      outSlope: 0.35716248
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.35716248
+      outSlope: 0.35716248
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders:
+  - {fileID: 0}
+  limitType: 3
+  maxAngleX: 30
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0.5
+      outSlope: 0.5
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.5
+      outSlope: 0.5
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 30
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 20, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!114 &3965674763171186825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358053747508076138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 1
+  integrationType: 1
+  rootTransform: {fileID: 8734674845557612133}
+  ignoreTransforms: []
+  ignoreOtherPhysBones: 1
+  endpointPosition: {x: 0, y: 0.09, z: 0}
+  multiChildType: 0
+  pull: 0.3
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.3
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  radius: 0.04
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.6428375
+      inSlope: 0.35716248
+      outSlope: 0.35716248
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.35716248
+      outSlope: 0.35716248
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders:
+  - {fileID: 0}
+  limitType: 3
+  maxAngleX: 30
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0.5
+      outSlope: 0.5
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.5
+      outSlope: 0.5
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 30
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 20, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &1394286499047097101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5015696088331914543}
+  - component: {fileID: 4742499533228037678}
+  m_Layer: 0
+  m_Name: Leash Pull
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5015696088331914543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394286499047097101}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6430013158524658705}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4742499533228037678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394286499047097101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785608337490240
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785608337490240
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 58c83d3605674b4efb5fd00c9099d844|Assets/Mirror Wish/Avatars/Kinu
+              Bundle/Kinu Clothes/Animations/Leash Pull FX.controller
+            objRef: {fileID: 9100000, guid: 58c83d3605674b4efb5fd00c9099d844, type: 2}
+          type: 5
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 911bcedb66c094019aca507623607edf|Assets/Mirror Wish/Avatars/Kinu
+              Bundle/Kinu Clothes/Animations/Leash Pull Menu.asset
+            objRef: {fileID: 11400000, guid: 911bcedb66c094019aca507623607edf, type: 2}
+          prefix: Clothes/Settings
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 354fda59072f85f25815c3e73076dc26|Assets/Mirror Wish/Avatars/Kinu
+              Bundle/Kinu Clothes/Animations/Leash Pull Parameters.asset
+            objRef: {fileID: 11400000, guid: 354fda59072f85f25815c3e73076dc26, type: 2}
+        smoothedPrms: []
+        globalParams:
+        - '*'
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        injectSpsDepthParam: 
+        injectSpsVelocityParam: 
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
+--- !u!1 &3801431858331176374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1267508469705495047}
+  - component: {fileID: 7590762750377422177}
+  m_Layer: 0
+  m_Name: Collar Hook
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1267508469705495047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3801431858331176374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3461131371977807500}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7590762750377422177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3801431858331176374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 1
+  integrationType: 1
+  rootTransform: {fileID: 8043436639080566135}
+  ignoreTransforms: []
+  ignoreOtherPhysBones: 1
+  endpointPosition: {x: 0, y: 0.1, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.2
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  radius: 0.01
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders:
+  - {fileID: 3502265001560649840}
+  limitType: 1
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+    contentTypes: -1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 1
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0.5
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: Leash
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &5093302278718707936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2617237805736352616}
+  - component: {fileID: 3269722041206974826}
+  - component: {fileID: 6478921195000685317}
+  - component: {fileID: 3853099464084258896}
+  - component: {fileID: 6847622143908298529}
+  - component: {fileID: 3559803312725102396}
+  m_Layer: 0
+  m_Name: Color Adjust
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2617237805736352616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5093302278718707936}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6430013158524658705}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3269722041206974826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5093302278718707936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080084169
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080084169
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Clothes/Settings/Color
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: d1e145db94a27b2819e689d10fb700bb|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_color.png
+          objRef: {fileID: 2800000, guid: d1e145db94a27b2819e689d10fb700bb, type: 3}
+--- !u!114 &6478921195000685317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5093302278718707936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785586310053888
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785586310053888
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Settings/Color/Warmers
+        state:
+          actions:
+          - rid: 7269785586310053889
+          - rid: 7269785672396571351
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1ff88a9105ad42df687f17e6e2805b7e|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_warmers.png
+          objRef: {fileID: 2800000, guid: 1ff88a9105ad42df687f17e6e2805b7e, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785586310053889
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 5284979483688534798}
+        affectAllMeshes: 0
+        propertyName: _MainHueShift
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785672396571351
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 5284979483688534798}
+        affectAllMeshes: 0
+        propertyName: _HueShift
+        propertyType: 0
+        value: 6.28
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &3853099464084258896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5093302278718707936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785586310053888
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785586310053888
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Settings/Color/Overalls, Shorts, Beret & Collar
+        state:
+          actions:
+          - rid: 7269785586310053889
+          - rid: 7269785586310053890
+          - rid: 7269785586310053892
+          - rid: 7269785586310053893
+          - rid: 7269785672396571413
+          - rid: 7269785672396571414
+          - rid: 7269785672396571415
+          - rid: 7269785672396571416
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1ebee18828ae2ceb49779a0bb89eac6d|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_setA.png
+          objRef: {fileID: 2800000, guid: 1ebee18828ae2ceb49779a0bb89eac6d, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785586310053889
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 7811698486952372109}
+        affectAllMeshes: 0
+        propertyName: _MainHueShift
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785586310053890
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 7541494233277040230}
+        affectAllMeshes: 0
+        propertyName: _MainHueShift
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785586310053892
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 7331575002456664258}
+        affectAllMeshes: 0
+        propertyName: _MainHueShift
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785586310053893
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 165043701884582553}
+        affectAllMeshes: 0
+        propertyName: _MainHueShift
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785672396571413
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 7811698486952372109}
+        affectAllMeshes: 0
+        propertyName: _HueShift
+        propertyType: 0
+        value: 6.28
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785672396571414
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 7541494233277040230}
+        affectAllMeshes: 0
+        propertyName: _HueShift
+        propertyType: 0
+        value: 6.28
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785672396571415
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 7331575002456664258}
+        affectAllMeshes: 0
+        propertyName: _HueShift
+        propertyType: 0
+        value: 6.28
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785672396571416
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 165043701884582553}
+        affectAllMeshes: 0
+        propertyName: _HueShift
+        propertyType: 0
+        value: 6.28
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &6847622143908298529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5093302278718707936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785586310053888
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785586310053888
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Settings/Color/Vest
+        state:
+          actions:
+          - rid: 7269785586310053889
+          - rid: 7269785672396571417
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: cda46093aae6d1f0684c2e589d773f21|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_vest.png
+          objRef: {fileID: 2800000, guid: cda46093aae6d1f0684c2e589d773f21, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785586310053889
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 8190507951517255667}
+        affectAllMeshes: 0
+        propertyName: _MainHueShift
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785672396571417
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 8190507951517255667}
+        affectAllMeshes: 0
+        propertyName: _HueShift
+        propertyType: 0
+        value: 6.28
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &3559803312725102396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5093302278718707936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785586310053888
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785586310053888
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Settings/Color/Sweater-Shirt
+        state:
+          actions:
+          - rid: 7269785586310053889
+          - rid: 7269785672396571418
+        saved: 1
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: df579a5aa8a81f24c96442f907e9bcea|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_setB.png
+          objRef: {fileID: 2800000, guid: df579a5aa8a81f24c96442f907e9bcea, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785586310053889
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 327987418683066044}
+        affectAllMeshes: 0
+        propertyName: _MainHueShift
+        propertyType: 0
+        value: 1
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+    - rid: 7269785672396571418
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 327987418683066044}
+        affectAllMeshes: 0
+        propertyName: _HueShift
+        propertyType: 0
+        value: 6.28
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &6304155974611547383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1446871359607660115}
+  - component: {fileID: 4627214906590423180}
+  - component: {fileID: 3502265001560649840}
+  m_Layer: 0
+  m_Name: Body Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1446871359607660115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6304155974611547383}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.7089157e-17, y: 0.97836053, z: 0.018697713}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3461131371977807500}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4627214906590423180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6304155974611547383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785448870576140
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785448870576140
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 6304155974611547383}
+        linkTo:
+        - useBone: 1
+          bone: 8
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 0
+        alignPosition: 0
+        alignRotation: 0
+        alignScale: 0
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
+--- !u!114 &3502265001560649840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6304155974611547383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 1
+  insideBounds: 0
+  radius: 0.11
+  height: 0.6
+  position: {x: 0, y: -0.11, z: -0.015}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  bonesAsSpheres: 0
+  globalCollisionFlags: 0
+--- !u!1 &6781203493453765840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5351286479244298408}
+  - component: {fileID: 3286735622983121852}
+  m_Layer: 0
+  m_Name: Defaults for Calibration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5351286479244298408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6781203493453765840}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6430013158524658705}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3286735622983121852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6781203493453765840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083553
+  references:
+    version: 2
+    RefIds:
+    - rid: 5405394202647855237
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Lower Arms
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 5405394202647855238
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Lower Legs
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 5405394202647855239
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Leg Fluff L
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 5405394202647855240
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Shoulders
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083553
+      type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        action:
+          actions:
+          - rid: 7269785671080083554
+          - rid: 7269785671080083556
+          - rid: 7269785671080083557
+          - rid: 7269785671080083558
+          - rid: 7269785671080083559
+          - rid: 5405394202647855239
+          - rid: 7269785671080083560
+          - rid: 7269785671080083561
+          - rid: 7269785671080083562
+          - rid: 5405394202647855237
+          - rid: 7269785671080083563
+          - rid: 5405394202647855238
+          - rid: 7269785671080083564
+          - rid: 5405394202647855240
+    - rid: 7269785671080083554
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Chest
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083556
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Crotch
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083557
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Elbow
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083558
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Hips
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083559
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Knees
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083560
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Leg Fluff R
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083561
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Shoulders
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083562
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Upper Arms
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083563
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Upper Legs
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785671080083564
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Waist
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!1 &8354683677262395903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4486040441502129664}
+  - component: {fileID: 1057599817596025861}
+  - component: {fileID: 8094943024179279518}
+  - component: {fileID: 5600557083980105048}
+  - component: {fileID: 2445452351918454585}
+  m_Layer: 0
+  m_Name: Top Select
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4486040441502129664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8354683677262395903}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6430013158524658705}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1057599817596025861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8354683677262395903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 6081225409252819470
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Arm Warmers
+        blendShapeValue: 100
+        renderer: {fileID: 3909754913467995513}
+        allRenderers: 0
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Tops/Sweater
+        state:
+          actions:
+          - rid: 7269785324228706307
+          - rid: 7269785324228706327
+          - rid: 7269785328797352016
+          - rid: 7269785328797352018
+          - rid: 7269785328797352019
+          - rid: 7269785328797352021
+          - rid: 6081225409252819470
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Tops,Sweater
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 950db5bb14ca9fdbabd22f6c97764b57|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_sweater.png
+          objRef: {fileID: 2800000, guid: 950db5bb14ca9fdbabd22f6c97764b57, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706307
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 327987418683066044}
+        mode: 0
+    - rid: 7269785324228706327
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: To Shirt
+        blendShapeValue: 0
+        renderer: {fileID: 6581905770819687473}
+        allRenderers: 0
+    - rid: 7269785328797352016
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Chest
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352018
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Elbow
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352019
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Upper Arms
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352021
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Shoulders
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &8094943024179279518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8354683677262395903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Tops/Shirt
+        state:
+          actions:
+          - rid: 7269785324228706307
+          - rid: 7269785324228706327
+          - rid: 7269785328797352016
+          - rid: 7269785328797352022
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Tops,Shirt
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e907304b2a7d5ffa2a75a394222b8b16|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_shirt.png
+          objRef: {fileID: 2800000, guid: e907304b2a7d5ffa2a75a394222b8b16, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706307
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 327987418683066044}
+        mode: 0
+    - rid: 7269785324228706327
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: To Shirt
+        blendShapeValue: 100
+        renderer: {fileID: 6581905770819687473}
+        allRenderers: 0
+    - rid: 7269785328797352016
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Chest
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352022
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Shoulders
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &5600557083980105048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8354683677262395903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 5405394196256260202
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Vest On
+        blendShapeValue: 100
+        renderer: {fileID: 6581905770819687473}
+        allRenderers: 0
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Tops/Vest
+        state:
+          actions:
+          - rid: 7269785324228706307
+          - rid: 5405394196256260202
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Over Tops,Vest
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: cda46093aae6d1f0684c2e589d773f21|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_vest.png
+          objRef: {fileID: 2800000, guid: cda46093aae6d1f0684c2e589d773f21, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706307
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 8190507951517255667}
+        mode: 0
+--- !u!114 &2445452351918454585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8354683677262395903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5405394196256260699
+  references:
+    version: 2
+    RefIds:
+    - rid: 5405394196256260699
+      type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        action:
+          actions:
+          - rid: 5405394196256260700
+    - rid: 5405394196256260700
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Vest On
+        blendShapeValue: 0
+        renderer: {fileID: 6581905770819687473}
+        allRenderers: 0
+--- !u!1 &8378785889830322959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6430013158524658705}
+  - component: {fileID: 2959304782642922003}
+  - component: {fileID: 5314750905616019279}
+  - component: {fileID: 3024728237151233942}
+  - component: {fileID: 5285664239145915736}
+  - component: {fileID: 1633274566993008964}
+  m_Layer: 0
+  m_Name: Menu & Toggles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6430013158524658705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378785889830322959}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5015696088331914543}
+  - {fileID: 2617237805736352616}
+  - {fileID: 4023195130556907406}
+  - {fileID: 8552054360697780830}
+  - {fileID: 4486040441502129664}
+  - {fileID: 5351286479244298408}
+  m_Father: {fileID: 1517451273260010048}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2959304782642922003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378785889830322959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083551
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083551
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Clothes
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6f7cd5ebe743ece26a58ba325b4d10f8|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Top Level/item_clothes.png
+          objRef: {fileID: 2800000, guid: 6f7cd5ebe743ece26a58ba325b4d10f8, type: 3}
+--- !u!114 &5314750905616019279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378785889830322959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083552
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083552
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Clothes/Settings
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: aaedd5890ec5a09428cab4bb1ee4dd2c|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_settings.png
+          objRef: {fileID: 2800000, guid: aaedd5890ec5a09428cab4bb1ee4dd2c, type: 3}
+--- !u!114 &3024728237151233942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378785889830322959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083551
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083551
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Clothes/Tops
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e88a8001a6593e061bbfb27320dd271e|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_tops.png
+          objRef: {fileID: 2800000, guid: e88a8001a6593e061bbfb27320dd271e, type: 3}
+--- !u!114 &5285664239145915736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378785889830322959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083551
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083551
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Clothes/Bottoms
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 901526abfb140901a8d77812f1539222|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_bottoms.png
+          objRef: {fileID: 2800000, guid: 901526abfb140901a8d77812f1539222, type: 3}
+--- !u!114 &1633274566993008964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378785889830322959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785671080083551
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785671080083551
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Clothes/Accessories
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: bd6447025bf8422ca9c2f164a25ca95e|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_accessories.png
+          objRef: {fileID: 2800000, guid: bd6447025bf8422ca9c2f164a25ca95e, type: 3}
+--- !u!1 &8608883887600793137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4023195130556907406}
+  - component: {fileID: 8833258978133302688}
+  - component: {fileID: 7888029908483079111}
+  - component: {fileID: 740637636655467956}
+  - component: {fileID: 8848673257005225388}
+  - component: {fileID: 6452727851072952482}
+  - component: {fileID: 6806637822923297446}
+  m_Layer: 0
+  m_Name: Accessory Select
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4023195130556907406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608883887600793137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6430013158524658705}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8833258978133302688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608883887600793137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Accessories/Collar
+        state:
+          actions:
+          - rid: 7269785324228706307
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Collar
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a42cb6a8107f4681aa4b3120af8f9f96|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_collar.png
+          objRef: {fileID: 2800000, guid: a42cb6a8107f4681aa4b3120af8f9f96, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706307
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 165043701884582553}
+        mode: 0
+--- !u!114 &7888029908483079111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608883887600793137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Accessories/Leash
+        state:
+          actions:
+          - rid: 7269785324228706308
+          - rid: 7269785346254831711
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b7e39b6a78da76d9c94b5534d38923bf|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_leash.png
+          objRef: {fileID: 2800000, guid: b7e39b6a78da76d9c94b5534d38923bf, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706308
+      type: {class: PoiyomiUVTileAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 2498108420964173400}
+        row: 0
+        column: 1
+        dissolve: 0
+        renamedMaterial: 
+    - rid: 7269785346254831711
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 3801431858331176374}
+        mode: 0
+--- !u!114 &740637636655467956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608883887600793137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 5405394153430057093
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Lower Legs
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 5405394153430057094
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Knees
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 5405394153430057096
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Lower Arms
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 5405394153430057166
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Elbow
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Accessories/Warmers
+        state:
+          actions:
+          - rid: 7269785324228706307
+          - rid: 5405394153430057093
+          - rid: 5405394153430057094
+          - rid: 5405394153430057096
+          - rid: 5405394153430057166
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Warmers
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 1ff88a9105ad42df687f17e6e2805b7e|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_warmers.png
+          objRef: {fileID: 2800000, guid: 1ff88a9105ad42df687f17e6e2805b7e, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706307
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 5284979483688534798}
+        mode: 0
+--- !u!114 &8848673257005225388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608883887600793137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Accessories/Wristbands
+        state:
+          actions:
+          - rid: 7269785324228706327
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Wristbands
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: e24cf3ab36f721160897e308155e58fc|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_wristbands.png
+          objRef: {fileID: 2800000, guid: e24cf3ab36f721160897e308155e58fc, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706327
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Wristbands
+        blendShapeValue: 0
+        renderer: {fileID: 6581905770819687473}
+        allRenderers: 0
+--- !u!114 &6452727851072952482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608883887600793137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Accessories/Beret
+        state:
+          actions:
+          - rid: 7269785324228706307
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Hats
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: cd50a5765a775e18fb0e12e3481c1ad0|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_beret.png
+          objRef: {fileID: 2800000, guid: cd50a5765a775e18fb0e12e3481c1ad0, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706307
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 7331575002456664258}
+        mode: 0
+--- !u!114 &6806637822923297446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608883887600793137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 2415622858444636683
+  references:
+    version: 2
+    RefIds:
+    - rid: 2415622858444636683
+      type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        action:
+          actions:
+          - rid: 2415622858444636684
+    - rid: 2415622858444636684
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Wristbands
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!1 &9206174546671037016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8552054360697780830}
+  - component: {fileID: 3829583805830895096}
+  - component: {fileID: 9116198059639935505}
+  - component: {fileID: 8654758477915960917}
+  m_Layer: 0
+  m_Name: Bottom Select
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8552054360697780830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206174546671037016}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6430013158524658705}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3829583805830895096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206174546671037016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 6081225409252819471
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Leg Warmers
+        blendShapeValue: 100
+        renderer: {fileID: 3909754913467995513}
+        allRenderers: 0
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Bottoms/Overalls
+        state:
+          actions:
+          - rid: 7269785324228706307
+          - rid: 7269785324228706326
+          - rid: 7269785324228706345
+          - rid: 7269785738341515325
+          - rid: 7269785328797352007
+          - rid: 7269785328797352008
+          - rid: 7269785328797352009
+          - rid: 7269785328797352010
+          - rid: 7269785328797352011
+          - rid: 6081225409252819471
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Bottoms,Overalls
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 6cb27149657acb4398205aad0da9935b|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_overalls.png
+          objRef: {fileID: 2800000, guid: 6cb27149657acb4398205aad0da9935b, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706307
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 7811698486952372109}
+        mode: 0
+    - rid: 7269785324228706326
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Overalls On
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785324228706345
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Leg Fluff L
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352007
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Crotch
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352008
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Hips
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352009
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Upper Legs
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352010
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Lower Legs
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352011
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Knees
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785738341515325
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Leg Fluff R
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &9116198059639935505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206174546671037016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706306
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785324228706306
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Bottoms/Shorts
+        state:
+          actions:
+          - rid: 7269785324228706307
+          - rid: 7269785738341515355
+          - rid: 7269785328797352012
+          - rid: 7269785328797352013
+          - rid: 7269785328797352014
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Bottoms,Shorts
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b09b09eccbf29dfc2a6f5c45ab77840f|Assets/Mirror Wish/Avatars/Kinu Bundle/Kinu
+            Avatar/Icons/Clothing/item_shorts.png
+          objRef: {fileID: 2800000, guid: b09b09eccbf29dfc2a6f5c45ab77840f, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 7269785324228706307
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 7541494233277040230}
+        mode: 0
+    - rid: 7269785328797352012
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Hips
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352013
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Upper Legs
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785328797352014
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Knees
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 7269785738341515355
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Shorts On
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &8654758477915960917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206174546671037016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785395816038402
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785395816038402
+      type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        action:
+          actions:
+          - rid: 7269785395816038403
+    - rid: 7269785395816038403
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Overalls On
+        blendShapeValue: 0
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!1001 &1334658243227413931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -9044555878784641836, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9044555878784641836, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: 0.00000692904
+      objectReference: {fileID: 0}
+    - target: {fileID: -9044555878784641836, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.0061888285
+      objectReference: {fileID: 0}
+    - target: {fileID: -9044555878784641836, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 1.0705931
+      objectReference: {fileID: 0}
+    - target: {fileID: -9044555878784641836, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.29261112
+      objectReference: {fileID: 0}
+    - target: {fileID: -9044555878784641836, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.122618884
+      objectReference: {fileID: 0}
+    - target: {fileID: -9044555878784641836, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.13113028
+      objectReference: {fileID: 0}
+    - target: {fileID: -9003868910076098104, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[12]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8011918277651261646, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635687931797361897, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7311254465461002018, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[13]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7004325036664670261, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.025147e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: -7004325036664670261, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14280976
+      objectReference: {fileID: 0}
+    - target: {fileID: -7004325036664670261, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00000077392906
+      objectReference: {fileID: 0}
+    - target: {fileID: -7004325036664670261, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999672
+      objectReference: {fileID: 0}
+    - target: {fileID: -7004325036664670261, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0081023825
+      objectReference: {fileID: 0}
+    - target: {fileID: -7004325036664670261, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 2.8900489e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: -7004325036664670261, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 3.446841e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: -7004325036664670261, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.928
+      objectReference: {fileID: 0}
+    - target: {fileID: -5604355606278028696, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0746959e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: -5604355606278028696, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14281105
+      objectReference: {fileID: 0}
+    - target: {fileID: -5604355606278028696, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000017210839
+      objectReference: {fileID: 0}
+    - target: {fileID: -5604355606278028696, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9998951
+      objectReference: {fileID: 0}
+    - target: {fileID: -5604355606278028696, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.014489695
+      objectReference: {fileID: 0}
+    - target: {fileID: -5604355606278028696, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000003175364
+      objectReference: {fileID: 0}
+    - target: {fileID: -5604355606278028696, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000002090685
+      objectReference: {fileID: 0}
+    - target: {fileID: -5604355606278028696, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.66
+      objectReference: {fileID: 0}
+    - target: {fileID: -3904048079643280998, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[19]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2603735553335202139, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2076389157962306984, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1862492200712520589, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1862492200712520589, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: -1862492200712520589, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.0012846217
+      objectReference: {fileID: 0}
+    - target: {fileID: -1862492200712520589, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.6404743
+      objectReference: {fileID: 0}
+    - target: {fileID: -1862492200712520589, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.5691376
+      objectReference: {fileID: 0}
+    - target: {fileID: -1862492200712520589, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.16121742
+      objectReference: {fileID: 0}
+    - target: {fileID: -1862492200712520589, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.5377319
+      objectReference: {fileID: 0}
+    - target: {fileID: -1592723425136504455, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99144495
+      objectReference: {fileID: 0}
+    - target: {fileID: -1592723425136504455, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.13052593
+      objectReference: {fileID: 0}
+    - target: {fileID: -1592723425136504455, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1.1087026e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: -1592723425136504455, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000018867198
+      objectReference: {fileID: 0}
+    - target: {fileID: -1592723425136504455, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -631818933580741271, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -419558700768859187, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -77384747548063194, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_Name
+      value: Kinu PC Clothes
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521508481807132584, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9993402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521508481807132584, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.03632153
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521508481807132584, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -2.0095973e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521508481807132584, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000054843894
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521508481807132584, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -4.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 3500929162697587380, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581757319084915835, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581757319084915835, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.000000007450581
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581757319084915835, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.010852434
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581757319084915835, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.56511676
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581757319084915835, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.23781502
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581757319084915835, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.17879143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581757319084915835, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.2988942
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.2772006e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13738847
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00004912912
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00000007290659
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000019613488
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9668692
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.25527236
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -29.579
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012158395132313405, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868477753112186890, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99942577
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868477753112186890, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.03388445
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868477753112186890, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 2.8828545e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868477753112186890, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000000042676103
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868477753112186890, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5371372329048388229, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9983283
+      objectReference: {fileID: 0}
+    - target: {fileID: 5371372329048388229, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.05779826
+      objectReference: {fileID: 0}
+    - target: {fileID: 5371372329048388229, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 5.680317e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5371372329048388229, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000010423317
+      objectReference: {fileID: 0}
+    - target: {fileID: 5371372329048388229, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.627
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718797780642350381, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.3414398e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718797780642350381, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.021278542
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718797780642350381, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000032410026
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718797780642350381, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000007222035
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718797780642350381, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000002201273
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718797780642350381, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9589757
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718797780642350381, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2834884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718797780642350381, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 32.937
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718797780642350381, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088507423656623270, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9993608
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088507423656623270, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.035748396
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088507423656623270, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -8.238571e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088507423656623270, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000005397903
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088507423656623270, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -4.097
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246203831909263119, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246203831909263119, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246203831909263119, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.027036633
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246203831909263119, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 1.0230764
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246203831909263119, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.57437015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246203831909263119, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.14528832
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246203831909263119, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.20606124
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070510315175038178, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.9422246e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070510315175038178, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1428143
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070510315175038178, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000027739443
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070510315175038178, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99927145
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070510315175038178, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.038166225
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070510315175038178, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 3.1135976e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070510315175038178, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -8.1459856e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070510315175038178, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -4.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017806896414826716, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7647641e-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017806896414826716, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.038939577
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017806896414826716, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0010797584
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017806896414826716, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9914448
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017806896414826716, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.13052638
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017806896414826716, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -7.1054257e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017806896414826716, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 6.2172472e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017806896414826716, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 6430013158524658705}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 3461131371977807500}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5654963133584807670}
+    - targetCorrespondingSourceObject: {fileID: 3866874994284970723, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8362627957428153854}
+  m_SourcePrefab: {fileID: 100100000, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+--- !u!1 &165043701884582553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8011918277651261646, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &327987418683066044 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7635687931797361897, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &580010341843897717 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7311254465461002018, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &1265085398542378083 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -9003868910076098104, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1517451273260010048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1849965385403108310 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 804399609129821821, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2181080635342377210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5654963133584807670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2181080635342377210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785328797352006
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785328797352006
+      type: {class: BlendShapeLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        objs: []
+        linkSkins:
+        - renderer: {fileID: 3855178122880041084}
+        - renderer: {fileID: 6581905770819687473}
+        - renderer: {fileID: 1265085398542378083}
+        - renderer: {fileID: 580010341843897717}
+        - renderer: {fileID: 3909754913467995513}
+        baseObj: Body
+        includeAll: 1
+        exactMatch: 0
+        excludes: []
+        includes: []
+--- !u!137 &2498108420964173400 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5751456512389764109, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2822717687576112968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3866874994284970723, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8362627957428153854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822717687576112968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1341.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7269785324228706309
+  references:
+    version: 2
+    RefIds:
+    - rid: 7269785324228706309
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 3927706682179460661}
+        linkTo:
+        - useBone: 1
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 1
+        alignPosition: 1
+        alignRotation: 1
+        alignScale: 1
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
+--- !u!137 &3855178122880041084 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -6411454018660160041, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &3909754913467995513 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -6573120235048208174, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3927706682179460661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2596233870703719326, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5284979483688534798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2603735553335202139, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5414823049451883227 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6458434846056294256, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &6581905770819687473 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -3904048079643280998, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7331575002456664258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -631818933580741271, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7541494233277040230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -419558700768859187, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7811698486952372109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -77384747548063194, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8043436639080566135 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9017806896414826716, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8190507951517255667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2076389157962306984, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8734674845557612133 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7760376054201299918, guid: 60c3d71ff4545e541b4242be754e2c00, type: 3}
+  m_PrefabInstance: {fileID: 1334658243227413931}
+  m_PrefabAsset: {fileID: 0}

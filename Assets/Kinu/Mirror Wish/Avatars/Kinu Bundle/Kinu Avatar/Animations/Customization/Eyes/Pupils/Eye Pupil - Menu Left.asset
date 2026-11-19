@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Eye Pupil - Menu Left
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: bcae6487c5d7a1087a111ad8cf51d0c5, type: 2}
+  controls:
+  - name: Round
+    icon: {fileID: 2800000, guid: 8264aff46fca9cbd7a9c24e3e58af192, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Eyes/Pupil/Left
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Minus
+    icon: {fileID: 2800000, guid: 6e94a1720da1e631ca9ee6b740c7fb12, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Eyes/Pupil/Left
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Plus
+    icon: {fileID: 2800000, guid: ca45f14d56c64c7b8b0dbebbd94ce616, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Eyes/Pupil/Left
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Star
+    icon: {fileID: 2800000, guid: 3506944b034c17228aa325a04ee3bded, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Eyes/Pupil/Left
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Diamond
+    icon: {fileID: 2800000, guid: c1dd857a7f77de982916489030d71e33, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Eyes/Pupil/Left
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Cross
+    icon: {fileID: 2800000, guid: 96fc479752d02feb6be5c1263ea58887, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Eyes/Pupil/Left
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Heart
+    icon: {fileID: 2800000, guid: e56f03250216080b39e022a91717312a, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Eyes/Pupil/Left
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Hide
+    icon: {fileID: 2800000, guid: b61e44772c70e74c889d4ae44d1b5077, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Eyes/Pupil/Left
+    value: 8
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

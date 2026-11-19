@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Expressions - Page 1
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 7c9483b9195093a4db72b7c750bcabf7, type: 2}
+  controls:
+  - name: Closed Eyes
+    icon: {fileID: 2800000, guid: d5075a7d6e54447dc926b6360a8f6247, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Emote
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Surprised
+    icon: {fileID: 2800000, guid: 6fd135418beb1576484463d701f6ac33, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Emote
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Calm
+    icon: {fileID: 2800000, guid: daacfbfc186c5dea4b60aa4ed942e76e, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Emote
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Wink
+    icon: {fileID: 2800000, guid: 26b4ce69958a00665a6a7f2bbabc5549, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Emote
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Cry
+    icon: {fileID: 2800000, guid: 1e94df88d66436d7f94b4254327a4860, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Emote
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Sultry
+    icon: {fileID: 2800000, guid: 4a6b682541071f8fd93676124a6b7037, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Emote
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Excited
+    icon: {fileID: 2800000, guid: a5b9fc2a87588441cbb8c15ac6073748, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Emote
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Confused
+    icon: {fileID: 2800000, guid: 3bbb057004b3befe4a9c8a7f2d130c02, type: 3}
+    type: 102
+    parameter:
+      name: Kinu/Emote
+    value: 8
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
