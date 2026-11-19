@@ -26,3 +26,4 @@ crashlytics-build.properties
 *.VC.db
 
 Packages/com.vrcfury.temp/
+Thry/persistent_data

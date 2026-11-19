@@ -223,6 +223,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 16088438105414692, guid: d28fab8ca29a1ea419c5358a9e5e6b19,
+        type: 3}
+      propertyPath: blueprintId
+      value: avtr_f4fda0c6-7481-46f6-a4cc-e2e99fa4898a
+      objectReference: {fileID: 0}
     - target: {fileID: 7409440127415595945, guid: d28fab8ca29a1ea419c5358a9e5e6b19,
         type: 3}
       propertyPath: m_Name

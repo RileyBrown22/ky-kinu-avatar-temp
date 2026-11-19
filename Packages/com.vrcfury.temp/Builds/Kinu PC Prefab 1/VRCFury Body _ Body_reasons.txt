@@ -1,0 +1,1 @@
+Needed to remove blendshapes for blendshape optimizer
